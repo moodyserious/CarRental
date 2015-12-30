@@ -1,0 +1,224 @@
+
+/*-- -----------------------------------Home page --------------------------------------------*/
+
+/*---------------------------------Navigation Bar ----------------------------------------------*/
+.customnav{
+    background-color: #000080 !important;
+    border: none !important;
+}
+
+.customnav a{
+    padding-top:25px !important;
+    color:white !important;
+    font-size: large;
+    margin-left: 20px !important;
+}
+
+.customnav a:hover{
+    background: #151B54 !important;
+    color:white !important;
+    border-bottom: 4px solid white !important;
+    box-shadow:inset 0px 6px 6px #151B54 !important;
+}
+
+
+.brand{
+    margin-top:20px;
+    color:white;
+}
+
+.brand:hover{
+    cursor:pointer !important;
+}
+.homebackground{
+    background-color: #b2dba1;
+}
+.homeimage{
+    margin-top: -20px;
+}
+
+img{
+    width:100%;
+}
+
+/*---------------------------------Home Page Image ------------------------------------------------*/
+
+.wrapper {
+    /*display: inline-block;*/
+    position: relative;
+}
+
+.wrapper img {
+    display: block;
+    margin-top:-20px;
+    height:470px;
+    width:100%;
+
+}
+
+.wrapper .overlay {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.25);
+    color:white;
+    text-align:center;
+
+}
+
+/*----------------------------------Home Page (Services) -------------------------------------------*/
+.cross{
+    font-size: large;
+}
+.cross:hover{
+    cursor:pointer;
+    color:red;
+}
+.servicesheading{
+    text-align: center;
+    color:black;
+}
+
+
+.serviceslink{
+    box-shadow: 0 11px 0 #fbfbfb;
+    cursor: pointer;
+    transition: all .1s linear;
+    background-color: #00b3ee;
+     height:250px;
+    display:block;
+    text-align: center;
+    color:white;
+    padding-top:50px;
+    font-size: 30px;
+
+}
+.borders{
+    border: 2px solid red;
+}
+.serviceslink:hover{
+    background: #1F45FC !important;
+    color:white !important;
+    box-shadow:inset 0px 6px 6px #151B54 !important;
+    text-decoration: none;
+}
+
+/*-----------------------------------------About -----------------------------------------------*/
+.aboutimage{
+    margin-top: -20px;
+    z-index:-1;
+}
+
+.aboutheading{
+    margin-top: -300px;
+    color:white;
+    z-index:3;
+    font-family: "Times New Roman", Georgia, Serif;;
+    font-size: 1200%;
+    text-align: center;
+}
+
+.aboutHeading{
+   text-align: center;
+    margin-top:-400px;
+}
+
+.aboutContent{
+    margin-top:30px;
+    padding-top:20px;
+    -webkit-box-shadow: inset 0px 4px 27px 0px rgba(112,112,112,0.66);
+    -moz-box-shadow: inset 0px 4px 27px 0px rgba(112,112,112,0.66);
+    box-shadow: inset 0px 4px 27px 0px rgba(112,112,112,0.66);
+    color:black;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*-------------------------------------Cities ----------------------------------------------------*/
+.table th, .table td {
+    border-top: none !important;
+}
+
+.citiesimage{
+    margin-top: -20px;
+    height:470px;
+    z-index:-1;
+}
+
+.citiesHeader th{
+   text-align: center;
+}
+
+/*-------------------------------------Deals----------------------------------------------------*/
+
+.dealimage{
+    margin-top: -20px;
+    height:470px;
+    z-index:-1;
+}
+/*-------------------------------------Reservation/Booking ---------------------------------------*/
+
+.bookingheading{
+    text-align:center;
+    margint-top:20px;
+}
+
+.ng-invalid.ng-dirty{
+    border-color:red;
+}
+
+.ng-valid.ng-dirty{
+    border-color: green;
+}
+/*--------------------------------------HR styles ------------------------------------------------*/
+
+hr.style-four{
+    height:12px;
+    border:0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+
+}
+
+hr.style-two{
+    border:0;
+    height:1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+
+
+}
+
+
+/*--------------------------------------Footer ----------------------------------------------------*/
+.footercss{
+    background-color: black;
+    width: 100%;
+    color:white;
+}
+
+.footerContent{
+     margin-top:20px;
+ }
+
+
+.colorbtn{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.colorbtn:hover{
+    moz-transform:scale(2);
+    -webkit-transform:scale(2);
+    -o-transform:scale(2);
+}
+
+.note{
+    color:red;
+}
+

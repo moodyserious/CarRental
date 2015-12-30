@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bower_components/bootstrap-social/bootstrap-social.css">
+
+	<link rel="stylesheet" href="css/custom.css">
+
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/controllers.js"></script>
+	<script type="text/javascript" src="js/services.js"></script>
+
+</head>
+<body>
+
+<header>
+	<nav class=" navbar customnav navbar-default customnav" role="navigation"  >
+		<div class="container-fluid ">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<h3 class=" brand" ui-sref="home">CarRental</h3>
+			</div>
+			<div collapse="isCollapsed" class="navbar-collapse bs-js-navbar-collapse " >
+				<ul class="nav navbar-nav">
+					<li ><a  ui-sref="home">Home</a></li>
+					<li><a ui-sref="about" >About</a></li>
+					<li><a ui-sref="cities">Cities</a></li>
+					<li><a ui-sref="deals">Deals</a></li>
+					<li><a ui-sref="booking">Reservation</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+</header>
+
+
+<div ui-view="mainArea" autoscroll="true" ng-animate="'animate'">
+	<div class="container-fluid">
+
+
+	</div>
+
+
+</div>
+<div class="container-fluid footercss">
+ <footer>
+	 <br>
+	 <br>
+
+		 <div class="row">
+			 <div class="col-md-6">
+               <h2> CarRental </h2>
+				 <hr>
+				 <p> CarRental's continually expanding network meets your mobility needs with a network of more than 10,000 outlets worldwide in over 150 countries covering Europe, Africa, Middle East, Indian Ocean, Canada, Central America, Mexico, Carribean and Asia-Pacific. CarRental locations can be found in all major airports, railway stations, and large towns and cities. Car rental in top countries and cities</p>
+			 </div>
+
+			 <div class="col-md-6">
+				 <h2>Contact Us</h2>
+				  <hr>
+				    <div class="row">
+						<div class=" col-md-offset-2 col-md-2">
+							 <a class=" colorbtn btn btn-lg btn-social-icon btn-facebook">
+								 <i class="fa fa-facebook"></i>
+							 </a>
+						</div>
+
+						<div class=" col-md-offset-1 col-md-2">
+							<a class="colorbtn btn btn-lg btn-social-icon btn-twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</div>
+
+						<div class=" col-md-offset-1 col-md-2">
+							<a class="colorbtn btn btn-lg btn-social-icon btn-linkedin">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</div>
+					</div>
+
+
+			 </div>
+
+		 </div>
+
+	 <br>
+	 <br>
+ </footer>
+
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 note">
+			<p>The text and pictures are copied from other websites such as Uber, Europcar, and Google mainly as the website is created for a course project. </p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

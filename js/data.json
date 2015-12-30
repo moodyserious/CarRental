@@ -1,0 +1,47 @@
+{
+  "food": [
+    {
+      "snack": "Lays Ketchup",
+      "sprice": 10,
+      "drink": "Pepsi",
+      "dprice": 5
+    },
+    {
+      "snack": "Doritos",
+      "sprice": 10,
+      "drink": "Coke",
+      "dprice": 5
+    },
+    {
+      "snack": "Croissant",
+      "sprice": 15,
+      "drink": "7up",
+      "dprice": 5
+    },
+    {
+      "snack": "Mars Chocolate",
+      "sprice": 7,
+      "drink": "Apple Juice",
+      "dprice": 10
+    },
+    {
+      "snack": "Twix Chocolate",
+      "sprice": 7,
+      "drink": "Mineral Water",
+      "dprice": 5
+    }
+  ],
+
+  "cities":[
+    {"na" : "Akron", "csa" : "Belo Horizonte", "em" : "Abu Dhabi"},
+    {"na" : "Albuquerque" , "csa" : "Brasilia", "em": "Dubai"},
+    {"na" : "Amarillo", "csa" : "Bogotá", "em" : "Sharjah"},
+    {"na" : "Anchorage", "csa": "Cali - Colombia", "em" : "Berlin"},
+    {"na" : "Ann Arbor", "csa" :"Lima", "em": "Riyadh"},
+    {"na" : "Asheville, NC", "csa": "Medellin", "em": "Jeddah"},
+    {"na" : "Athens", "csa": "Panama, Panama", "em": "Amsterdam"},
+    {"na" : "Atlanta", "csa": "Rio De Janeiro", "em":"Brussels"},
+    {"na" : "Auburn, AL", "csa" : "Santiago", "em": "Istanbul"},
+    {"na" : "Austin", "csa": "Sao Paulo", "em": "London"}
+  ]
+}

@@ -1,0 +1,55 @@
+<div class="container">
+
+	<div class="row">
+		<div class="col-xs-10">
+			<h1> Refreshment </h1>
+		</div>
+
+		<div class="cross col-xs-push-1 col-xs-1">
+			<strong  ng-click="goBack()"> X</strong>
+		</div>
+
+	</div>
+	<hr class="style-two">
+
+	<div class="row">
+		<div class="col-md-8">
+			<p>For your convenience, we offer a variety of snacks and drinks during your ride. Our high-quality selection of on board items allows you to enjoy a refreshing drink and a delicious snack all from the comfort of your seat..</p>
+
+			<table class="table table-bordered">
+				<thead>
+				<tr>
+					<th>Snacks</th>
+					<th>Price</th>
+
+					<th>Drinks</th>
+					<th>Price</th>
+				</tr>
+				</thead>
+
+				<tbody>
+				<tr ng-repeat="item in foodlist.food">
+					<td>{{item.snack}}</td>
+					<td>{{item.sprice | currency}}</td>
+					<td>{{item.drink}}</td>
+					<td>{{item.dprice | currency}}</td>
+				</tr>
+				</tbody>
+
+			</table>
+		</div>
+
+		<div class="col-md-4">
+			<img src="img/snacks.jpg" style="height:300px; width:300px">
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+</div>

@@ -1,0 +1,33 @@
+<header>
+	<img class="citiesimage" src="img/cities.jpg">
+
+	<div class="container aboutContent">
+
+		<h2>Cities</h2>
+		<hr class="style-four">
+		<table class="table customtable">
+
+			<tr class="citiesHeader">
+				<th>North America</th>
+				<th>Central & South America</th>
+				<th>Europe & Middle East</th>
+			</tr>
+
+
+
+			<tr ng-repeat="item in citiesdata.cities">
+				<td> {{item.na}}</td>
+				<td> {{item.csa}}</td>
+				<td> {{item.em}}</td>
+			</tr>
+
+		</table>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</header>
